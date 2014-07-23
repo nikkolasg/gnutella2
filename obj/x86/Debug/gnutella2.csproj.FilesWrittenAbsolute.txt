@@ -1,0 +1,15 @@
+/home/nico/prog/C#/gnutella2/gnutella2/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nico/prog/C#/gnutella2/gnutella2/bin/Debug/gnutella2.exe.mdb
+/home/nico/prog/C#/gnutella2/gnutella2/bin/Debug/gnutella2.exe
+/home/nico/prog/C#/gnutella2/gnutella2/obj/x86/Debug/gnutella2.exe
+/home/nico/prog/C#/gnutella2/gnutella2/obj/x86/Debug/gnutella2.exe.mdb
+/run/media/nico/Data/Prog/gnutella2/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/run/media/nico/Data/Prog/gnutella2/bin/Debug/gnutella2.dll.mdb
+/run/media/nico/Data/Prog/gnutella2/bin/Debug/gnutella2.dll
+/run/media/nico/Data/Prog/gnutella2/obj/x86/Debug/gnutella2.dll
+/run/media/nico/Data/Prog/gnutella2/obj/x86/Debug/gnutella2.dll.mdb
+/run/media/nico/Data/Prog/gnutella2/bin/Debug/P2PScanCore.dll
+/run/media/nico/Data/Prog/gnutella2/obj/x86/Debug/gnutella2.exe.mdb
+/run/media/nico/Data/Prog/gnutella2/bin/Debug/gnutella2.exe.mdb
+/run/media/nico/Data/Prog/gnutella2/bin/Debug/gnutella2.exe
+/run/media/nico/Data/Prog/gnutella2/obj/x86/Debug/gnutella2.exe

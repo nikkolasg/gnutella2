@@ -1,0 +1,67 @@
+using System;
+
+namespace gnutella2 {
+    /*
+     * Query acknowledgement packet 
+     * in response to a Q2 packet 
+     * */
+    public class G2PacketQA {
+
+        public GUID guid {get;set;}
+
+        public G2PacketQA(Header packHeader) : base(packHeader) {
+            type = G2PacketType.QA;
+        }
+
+        public int WritePayload(MemoryStream stream) {
+            throw new NotSupportedException("G2PacketQA: Write Payload not implemented");
+        }
+
+        public int ReadPayload(MemoryStream stream, uint length) {
+            if(length != GUID.GUID_LEN)
+                throw new GUIDPacketException("G2PacketQA : length to read guid is " + length);
+            guid = GUID.ReadGUID(stream);
+            return guid.bytes.Length;
+        }
+        /**
+         * Should always be 16 (GUID_LEN)
+         * */
+        public uint getPayloadLength() {
+            return guid.bytes.Length;
+        }
+        public override string ToString() {
+            var str = base.ToString() + "\n";
+            str +=  guid.ToString()+ "\n";
+            str += PrintChildren();
+        }
+    }
+
+    /*
+     * CHILD
+     * Retry after, specified by a hub
+     * to not be quried before the delay given
+     * otherwise to be banned
+     * */
+    public class G2PacketRA {
+        private byte[] timeDelay;
+
+        public G2PacketRA(Header h) : base(h) {
+            timeDelay = new byte[h.packetLength];
+        }
+
+        public override int WritePayload(MemoryStream stream) {
+            throw new NotSupportedException("G2PacketRA : WritePayload not implemented");
+
+        }
+
+        public override uint ReadPayload(MemoryStream stream, uint length) {
+            return stream.Read(timeDelay,0,timeDelay.Length);
+        }
+
+        public override uint getPayloadLength()
+        {
+            return timeDelay.Length;
+        }
+    }
+
+}

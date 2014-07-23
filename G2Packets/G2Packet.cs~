@@ -1,0 +1,132 @@
+using System;
+
+namespace gnutella2 {
+
+    public abstract class G2Packet {
+
+        public Header packetHeader {get;set;}
+        public List<G2Packet> children {get;set;}
+        
+        public uint TotalLength {
+            get {
+                return packetHeader.payloadLength + packetHeader.headerLength;
+            }
+        }
+
+        public string type {get;set;}
+      
+       // to be called when creating a new packet 
+        public G2Packet() {
+            children = new List<Children>();
+            packetHeader = null;
+         }
+        // to be called when reading packet from stream
+        public G2Packet(Header h) : this() {
+            packetHeader = h;
+        } 
+        public static G2Packet Read(MemoryStream stream) {
+
+            G2Packet pack;
+            
+            Header h = null;
+            try {
+                h = Header.ReadHeader(stream);
+            } catch (EndOfStreamException e) {
+               return null;
+            } catch (BigEndianPacketException e) {
+                throw e;
+            }
+
+             
+            pack = getPacketByHeader(h);
+            uint byteToRead = pack.totalLength;
+            uint byteRead = h.headerLength; 
+            bool endOfChildStream = false;
+
+            if(h.compound) {
+                
+                while(true) {
+                    
+                    G2Packet childPacket;
+                    try {
+
+                        childPacket = G2Packet.Read(stream);
+                    } catch (EndOfStreamException e) {
+                        break;
+                    } catch (BigEndianPacketException e) {
+                        throw e;
+                    }
+                    pack.addChild(childPacket);
+                    byteRead += childPacket.totalLength;
+                    // root packet does NOT have a payload 
+                    if(byteRead == byteToRead){
+                        endOfStream = true;
+                        break; 
+                    }
+                    
+                }
+            }
+            // have to count the remaining bytes, because length is header includes child packets.
+            if(!endOfStream)
+                pack.ReadPayload(stream, byteToRead - byteRead);
+        
+        }
+        
+        public virtual bool Write(MemoryStream stream) {
+            if(packetHeader == null)
+               packetHeader = new Header(this);
+
+           packetHeader.Write(stream);
+           WriteChildren(stream);
+           writePayload(stream);
+
+        }
+        private void WriteChildren(MemoryStream stream) {
+            if (children.Count == 0)
+                return;
+            foreach(G2Packet child in children)
+                child.Write(stream);
+            
+            WriteTerminationStream(stream);
+        }
+
+        private void WriteTerminationStream(MemoryStream stream) {
+            stream.WriteByte(0);
+        }
+        public abstract int WritePayload(MemoryStream stream);
+        public abstract int ReadPayload(MemoryStream stream,uint length);
+        public abstract uint getPayloadLength();
+        public virtual  string ToString() {
+            var str = "Header " + header.HeaderLength "\t Payload " +header.PayloadLength;
+            str += "\nType = " + type;
+            return str;
+        }
+        private string PrintChildren() {
+            var str = "";
+            foreach(G2Packet child in children) {
+                var lines =  child.ToString();
+                foreach(string line in lines.Split('\n') {
+                    str += "\t" + line;       
+                }
+            }
+            return str;
+        }
+        public static G2Packet getPacketByHeader(Header h) {
+            G2Packet packet ;
+            switch(h.type) {
+                case G2PacketType.Q2 :
+                    packet = new G2PacketQ2(h);
+                    break;
+            }
+            return packet;
+        }
+        
+        
+
+        public void addChild(G2Packet p) {
+            return children.Add(p);
+        }
+
+    }
+
+}

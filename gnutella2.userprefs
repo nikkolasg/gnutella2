@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Search/G2SearchResults.cs">
+    <Files>
+      <File FileName="Search/G2BrowseSearch.cs" Line="1" Column="1" />
+      <File FileName="Search/G2SearchManager.cs" Line="1" Column="1" />
+      <File FileName="Search/G2SearchResults.cs" Line="157" Column="11" />
+      <File FileName="Struct/G2File.cs" Line="1" Column="1" />
+      <File FileName="G2SearchResultRegrouping.cs" Line="1" Column="1" />
+      <File FileName="G2PacketReader.cs" Line="1" Column="1" />
+      <File FileName="Test/ApplicationTest.cs" Line="1" Column="1" />
+      <File FileName="Test/G2MainTest.cs" Line="1" Column="1" />
+      <File FileName="Test/ProtocolPluginTest.cs" Line="1" Column="1" />
+      <File FileName="Test/BinaryUtilsTest.cs" Line="1" Column="1" />
+      <File FileName="network/Sock/HubSocket.cs" Line="1" Column="1" />
+      <File FileName="G2Packets/G2Packet.cs" Line="1" Column="1" />
+      <File FileName="G2Packets/PacketException.cs" Line="17" Column="32" />
+      <File FileName="G2Packets/Header.cs" Line="68" Column="25" />
+      <File FileName="G2Packets/G2PacketUPRO.cs" Line="1" Column="1" />
+      <File FileName="G2Packets/G2PacketType.cs" Line="1" Column="1" />
+      <File FileName="G2Packets/G2PacketQKR.cs" Line="1" Column="1" />
+      <File FileName="G2Packets/G2PacketQKA.cs" Line="1" Column="1" />
+      <File FileName="G2Packets/G2PacketKHL.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/run/media/nico/Data/Prog/gnutella2/Search/G2SearchResults.cs" line="157" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{825157C1-7CA9-428D-A712-DA9C711C509F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ActionInnocence.P2PScan.Plugins.Gnutella2</RootNamespace>
+    <AssemblyName>gnutella2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="P2PScanCore">
+      <HintPath>P2PScanCore.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="G2Manager.cs" />
+    <Compile Include="G2Packets\G2PacketUPRO.cs" />
+    <Compile Include="G2PacketReader.cs" />
+    <Compile Include="G2SearchResultRegrouping.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Search\G2BrowseSearch.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Struct\G2SearchResultRegrouping.cs" />
+    <Compile Include="Struct\G2UserProfile.cs" />
+    <Compile Include="Struct\Metadata.cs" />
+    <Compile Include="Test\ApplicationTest.cs" />
+    <Compile Include="Test\BinaryUtilsTest.cs" />
+    <Compile Include="Test\G2MainTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GWebCache.cs" />
+    <Compile Include="GHandshake.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="G2Packets\G2Packet.cs" />
+    <Compile Include="G2Packets\G2PacketQ2.cs" />
+    <Compile Include="G2Packets\G2PacketQA.cs" />
+    <Compile Include="G2Packets\G2PacketQH2.cs" />
+    <Compile Include="G2Packets\G2PacketType.cs" />
+    <Compile Include="G2Packets\Header.cs" />
+    <Compile Include="G2Packets\PacketException.cs" />
+    <Compile Include="G2Network.cs" />
+    <Compile Include="Test\G2PacketTest.cs" />
+    <Compile Include="G2Packets\G2PacketLNI.cs" />
+    <Compile Include="G2Packets\G2PacketPI.cs" />
+    <Compile Include="G2Packets\G2PacketQKR.cs" />
+    <Compile Include="G2Packets\G2PacketQKA.cs" />
+    <Compile Include="ProtocolPlugin.cs" />
+    <Compile Include="Struct\GUID.cs" />
+    <Compile Include="Struct\HttpHeader.cs" />
+    <Compile Include="Struct\NodeAddress.cs" />
+    <Compile Include="Struct\URN.cs" />
+    <Compile Include="Struct\QueryKey.cs" />
+    <Compile Include="Struct\ByteBuffer.cs" />
+    <Compile Include="ProcessingThread.cs" />
+    <Compile Include="network\TCPClient.cs" />
+    <Compile Include="network\Sock\HubSocket.cs" />
+    <Compile Include="network\Sock\Datagrams.cs" />
+    <Compile Include="Search\G2SearchManager.cs" />
+    <Compile Include="G2Packets\G2PacketKHL.cs" />
+    <Compile Include="Struct\PacketBuffer.cs" />
+    <Compile Include="Struct\G2Peer.cs" />
+    <Compile Include="Struct\G2File.cs" />
+    <Compile Include="Search\G2SearchResults.cs" />
+    <Compile Include="Struct\NodePeer.cs" />
+    <Compile Include="BinaryUtils.cs" />
+    <Compile Include="GHubCache.cs" />
+    <Compile Include="G2Log.cs" />
+    <Compile Include="Test\MetadataTest.cs" />
+    <Compile Include="Test\ProtocolPluginTest.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Todo" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,320 @@
+G2Network : Starting network processes ... 
+GWebCache: Try retrieve from http://cache.peernix.com/gwc.php?net=gnutella2&get=1&client=SHLN&version=0.2.2...
+GWebCache : Found 30 peers ...
+GHandshake : Try to connect to [Peer: 122.152.90.60:6346 05/06/2014 13:46:43 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 11 hubs
+GHandshake : Try to connect to [Peer: 50.162.194.77:23417 05/06/2014 13:45:35 ]
+ERROR GHandshake: TryConnect could not connect
+GHandshake : Try to connect to [Peer: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+HubCache did NOT remove [Peer: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+GHUBCACHE : ADDED CONNECTED HUB [Peer: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+PacketBuffer : Enqueued packet LNI to send to [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+G2Network : Connected to [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+GHandshake : Try to connect to [Hub: 176.127.72.143:6346 05/06/2014 13:54:00 ]
+PacketBuffer : Enqueued incoming packet LNI to receive  from [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+PacketBuffer : Enqueued incoming packet KHL to receive  from [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+PacketBuffer : Enqueued incoming packet UPROC to receive  from [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+PacketBuffer : Enqueued packet UPROD to send to [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+ERROR GHandshake: TryConnect could not connect
+GHandshake : Try to connect to [Hub: 89.237.25.50:6346 05/06/2014 13:54:00 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 7 hubs
+GHandshake : Try to connect to [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+GHUBCACHE : ADDED CONNECTED HUB [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+PacketBuffer : Enqueued packet LNI to send to [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+G2Network : Connected to [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+GHandshake : Try to connect to [Hub: 86.197.56.194:39443 05/06/2014 13:54:50 ]
+PacketBuffer : Enqueued incoming packet LNI to receive  from [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+ERROR GHandshake: TryConnect could not connect
+GHandshake : Try to connect to [Hub: 78.122.54.185:50289 05/06/2014 13:54:50 ]
+PacketBuffer : Enqueued incoming packet KHL to receive  from [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+PacketBuffer : Enqueued incoming packet UPROC to receive  from [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+PacketBuffer : Enqueued packet UPROD to send to [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 31.34.170.132:6346 05/06/2014 13:54:00 ]
+ERROR GHandshake: TryConnect could not connect
+GHandshake : Try to connect to [Hub: 74.14.183.245:6346 05/06/2014 13:54:50 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 188.37.139.75:6345 05/06/2014 13:45:03 ]
+GHUBCACHE : ADDED CONNECTED HUB [Hub: 74.14.183.245:6346 05/06/2014 13:54:50 ]
+G2Network : Starting network processes ... 
+GWebCache: Try retrieve from http://cache.peernix.com/gwc.php?net=gnutella2&get=1&client=SHLN&version=0.2.2...
+GWebCache : Found 30 peers ...
+GHandshake : Try to connect to [Peer: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+GHUBCACHE : ADDED CONNECTED HUB [Peer: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet LNI to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+G2Network : Connected to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+GHandshake : Try to connect to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet LNI to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet KHL to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+ERROR TCPConnection : readIdentity System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at ActionInnocence.P2PScan.Plugins.Gnutella2.Network.TCPConnection.readIdentity() in f:\Prog\gnutella2\network\TCPClient.cs:line 130
+PacketBuffer : Enqueued incoming packet UPROC to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+GHandshake : Try to connect to [Peer: 81.241.67.155:15618 05/06/2014 16:02:30 ]
+PacketBuffer : Enqueued packet UPROD to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 9 hubs
+GHandshake : Try to connect to [Peer: 24.68.98.148:26241 05/06/2014 16:02:11 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 12 hubs
+GHandshake : Try to connect to [Peer: 99.167.198.114:27167 05/06/2014 16:01:25 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 8 hubs
+GHandshake : Try to connect to [Peer: 88.122.104.30:6346 05/06/2014 15:59:22 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 10 hubs
+GHandshake : Try to connect to [Peer: 91.179.19.80:32910 05/06/2014 15:50:27 ]
+GHandshake : Try to connect to [Peer: 142.196.43.85:6346 05/06/2014 15:45:42 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 11 hubs
+GHandshake : Try to connect to [Peer: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+GHUBCACHE : ADDED CONNECTED HUB [Peer: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued packet LNI to send to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+G2Network : Connected to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+GHandshake : Try to connect to [Hub: 31.34.170.132:6346 05/06/2014 16:15:42 ]
+PacketBuffer : Enqueued incoming packet LNI to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet KHL to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet UPROC to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued packet UPROD to send to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 10 hubs
+GHandshake : Try to connect to [Hub: 91.194.90.100:6346 05/06/2014 16:15:42 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 10 hubs
+GHandshake : Try to connect to [Hub: 176.127.72.143:6346 05/06/2014 16:15:42 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 10 hubs
+GHandshake : Try to connect to [Hub: 90.47.117.59:51774 05/06/2014 16:15:42 ]
+GHandshake : Try to connect to [Hub: 173.44.64.10:41201 05/06/2014 16:15:42 ]
+PacketBuffer : Enqueued incoming packet Q2 to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+GHandshake : Try to connect to [Hub: 101.175.41.169:6346 05/06/2014 16:15:42 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+GHandshake : Try to connect to [Hub: 85.201.151.72:6655 05/06/2014 16:15:00 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 14 hubs
+GHandshake : Try to connect to [Hub: 212.130.61.185:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet Q2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 10 hubs
+GHandshake : Try to connect to [Hub: 78.249.26.218:6346 05/06/2014 16:15:00 ]
+ParseHandshake HttpHeader : 503 Code found !
+ParseErrorHeader() : Retrieved 8 hubs
+GHandshake : Try to connect to [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+GHUBCACHE : ADDED CONNECTED HUB [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet LNI to send to [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+G2Network : Connected to [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+GHandshake : Try to connect to [Hub: 1.164.17.129:3360 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet LNI to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet KHL to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet UPROC to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet UPROD to send to [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+GHandshake : Try to connect to [Hub: 1.172.20.231:7937 05/06/2014 16:15:00 ]
+GHandshake : Try to connect to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+GHUBCACHE : ADDED CONNECTED HUB [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet LNI to send to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+G2Network : Connected to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet LNI to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet KHL to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet UPROC to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet UPROD to send to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+Starting Transaction - Keyword :madonna
+PacketBuffer : Enqueued packet Q2 to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+G2SearchManager : Sent Query madonna on [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet Q2 to send to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+G2SearchManager : Sent Query madonna on [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued packet Q2 to send to [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+G2SearchManager : Sent Query madonna on [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued packet Q2 to send to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+G2SearchManager : Sent Query madonna on [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+G2Search Result (madonna) => STARTING....
+PacketBuffer : Enqueued incoming packet QA to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+G2SearchManager Received ACK of search ActionInnocence.P2PScan.Keyword
+PacketBuffer : Enqueued incoming packet QA to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+G2SearchManager Received ACK of search ActionInnocence.P2PScan.Keyword
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+SearchResults : New result from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ] for madonna ==> 2 files
+System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context 84.101.131.240:0
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ActionInnocence.P2PScan.Plugins.Gnutella2.Network.TCPConnection.ConnectTimeOut() in f:\Prog\gnutella2\network\TCPClient.cs:line 114
+G2BrowseSearch could not connect to Peer [Peer: 84.101.131.240:0 05/06/2014 16:16:24 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+SearchResults : New result from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ] for madonna ==> 1 files
+PacketBuffer : Enqueued incoming packet QA to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+G2SearchManager Received ACK of search ActionInnocence.P2PScan.Keyword
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+G2BrowseSearch could not connect to Peer [Peer: 81.164.97.254:26173 05/06/2014 16:16:25 ]
+SearchResults : New result from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ] for madonna ==> 3 files
+SearchResults : New result from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ] for madonna ==> 2 files
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QA to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+G2SearchManager Received ACK of search ActionInnocence.P2PScan.Keyword
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet Q2 to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+ERROR TCPConnection : readIdentity System.IO.IOException: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time or established connection failed because connected host has failed to respond. ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time or established connection failed because connected host has failed to respond
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at ActionInnocence.P2PScan.Plugins.Gnutella2.Network.TCPConnection.readIdentity() in f:\Prog\gnutella2\network\TCPClient.cs:line 130
+SearchResults : New result from [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ] for madonna ==> 1 files
+G2BrowseSearch could not connect to Peer [Peer: 85.140.214.244:6346 05/06/2014 16:16:38 ]
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 1 files
+G2BrowseSearch : browsing peer [Peer: 109.89.64.15:6346 05/06/2014 16:16:41 ] ...
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 6 files
+PacketBuffer : Enqueued incoming packet LNI to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet KHL to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]
+G2BrowseSearch could not connect to Peer [Peer: 77.102.116.109:6346 05/06/2014 16:16:41 ]
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 2 files
+System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context 82.233.48.231:0
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ActionInnocence.P2PScan.Plugins.Gnutella2.Network.TCPConnection.ConnectTimeOut() in f:\Prog\gnutella2\network\TCPClient.cs:line 114
+G2BrowseSearch could not connect to Peer [Peer: 82.233.48.231:0 05/06/2014 16:16:44 ]
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 1 files
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 2 files
+PacketBuffer : Enqueued packet PI to send to [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ]
+PacketBuffer : Enqueued incoming packet QH2 to receive  from [Peer: 109.89.64.15:6346 05/06/2014 16:16:41 ]
+G2BrowseSearch could not connect to Peer [Peer: 92.155.21.236:6346 05/06/2014 16:16:44 ]
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 1 files
+System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context 212.130.61.185:0
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ActionInnocence.P2PScan.Plugins.Gnutella2.Network.TCPConnection.ConnectTimeOut() in f:\Prog\gnutella2\network\TCPClient.cs:line 114
+G2BrowseSearch could not connect to Peer [Peer: 212.130.61.185:0 05/06/2014 16:16:47 ]
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 7 files
+System.Net.Sockets.SocketException (0x80004005): The requested address is not valid in its context 81.249.184.233:0
+   at System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at ActionInnocence.P2PScan.Plugins.Gnutella2.Network.TCPConnection.ConnectTimeOut() in f:\Prog\gnutella2\network\TCPClient.cs:line 114
+G2BrowseSearch could not connect to Peer [Peer: 81.249.184.233:0 05/06/2014 16:16:47 ]
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 2 files
+HubSocket : [Peer: 109.89.64.15:6346 05/06/2014 16:16:41 ] Closing ... 
+	HubSocket : =======> closed Receiver Thread ([Peer: 109.89.64.15:6346 05/06/2014 16:16:41 ]) ...
+	HubSocket : =======> closed Sender Thread ([Peer: 109.89.64.15:6346 05/06/2014 16:16:41 ]) ...
+SearchResults : New Browsing Result from 109.89.64.15:6346 ==> 1 files && 45 shared files ...
+G2BrowseSearch : browsing peer [Peer: 79.17.157.205:6346 05/06/2014 16:16:47 ] ...
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 5 files
+PacketBuffer : Enqueued incoming packet UPROD to receive  from [Peer: 79.17.157.205:6346 05/06/2014 16:16:47 ]
+PacketBuffer : Enqueued packet PI to send to [Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ]
+PacketBuffer : Enqueued incoming packet PI to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued packet PO to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+G2BrowseSearch could not connect to Peer [Peer: 109.31.36.186:24828 05/06/2014 16:16:49 ]
+SearchResults : New result from [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] for madonna ==> 2 files
+[Hub: 2.11.249.49:6346 05/06/2014 15:45:35 ] is queryable free again ...
+[Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ] is queryable free again ...
+[Hub: 109.13.54.12:6346 05/06/2014 16:15:00 ] is queryable free again ...
+[Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] is queryable free again ...
+G2MANAGER : Received results for madonna => 13 Peers & 34 Files ...
+HubSocket : [Peer: 79.17.157.205:6346 05/06/2014 16:16:47 ] Closing ... 
+	HubSocket : =======> closed Receiver Thread ([Peer: 79.17.157.205:6346 05/06/2014 16:16:47 ]) ...
+	HubSocket : =======> closed Sender Thread ([Peer: 79.17.157.205:6346 05/06/2014 16:16:47 ]) ...
+PacketBuffer : Enqueued packet PI to send to [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PacketBuffer : Enqueued incoming packet PO to receive  from [Hub: 86.76.97.237:21306 05/06/2014 16:11:16 ]
+PEER Does not respond ... Disconnecting
+HubSocket : [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] Closing ... 
+	HubSocket : =======> closed Receiver Thread ([Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]) ...
+	HubSocket : =======> closed Sender Thread ([Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ]) ...
+Cache : Removing hub [Hub: 178.142.94.100:6346 05/06/2014 16:15:00 ] ... 

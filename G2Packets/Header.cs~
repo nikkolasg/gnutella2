@@ -1,0 +1,148 @@
+using System;
+
+namespace gnutella2 {
+
+    class Header {
+
+        public byte controlByte {get;set;}
+        public uint headerLength {get;set;}
+        // payload length
+        public uint payloadLength {get;set;}
+        public string type {get;set;}
+        public bool compound {get;set;}
+        // EXACT byte length of the name of packet 
+        // when you write , do minus one.
+        public byte nLenLen {get;set;}
+        public byte nTypeLen {get;set;}
+
+        public Header(byte c, uint packLen, string type, bool comp,uint headerL, byte LenLen, byte TypeLen) {
+            initialize(packLen,type,comp,headerL,LenLen,TypeLend) ;
+            controlByte = c;
+         }
+
+        private initialize(uint packLen,string type, bool comp, byte LenLen, byte TypeLen) {
+            payloadLength = packLen;
+            this.type = type;
+            compound = comp;
+            nLenLen = LenLen;
+            nTypeLen = TypeLen;
+            // +1 for control byte
+            headerLength = nLenLen + nTypeLen + 1; 
+        }
+        public Header(G2Packet packet) {
+            initialize( packet.getPayloadLength(),
+                        packet.type,
+                        packet.children.Count > 0 ? true : false,
+                        getLenLen(payloadLength),
+                        Encoding.Unicode.GetBytes(type).Length) ; 
+            
+            h.ComputeControlByte();
+        }
+        public static Header Read(MemoryStream stream) {
+
+            
+            G2Packet pack;
+            byte nInput = stream.ReadByte();
+           
+            if ( nInput == 0 ) throw new EndOfStreamException("Control byte empty");
+
+            byte nLenLen = ( nInput & 0xC0 ) >> 6;
+            byte nTypeLen = ( nInput & 0x38 ) >> 3 + 1;
+            byte  nFlags = ( nInput & 0x07 );
+
+            bool bBigEndian = ( nFlags & 0x02 ) ? true : false;
+            bool bIsCompound = ( nFlags & 0x04 ) ? true : false;
+            
+            if(bBigEndian) throw new BigEndianPacketException("Big Endianness detected");
+            uint headerLength = 1 + nLenLen + nTypeLen;
+            uint dataSize = BinaryUtils.getIntLE(stream,nLenLen);
+            string type = BinaryUtils.getString(stream,nTypeLen);
+
+            return new Header(nInput,dataSize,type,bIsCompound,headerLength,nLenLen,nTypeLen);
+
+        }
+        /**
+         * Write the header to the stream according
+         * to the gnutella2 spec 
+         * */
+        public void Write(MemoryStream stream) {
+           stream.WriteByte(controlByte);
+
+           if(payloadLength > 0)
+              BinaryUtils.WriteIntLE(stream,payloadLength,nLenLen);
+            
+            BinaryUtils.WriteString(stream,type);
+
+            
+        }
+        /**
+         * Return number of byte needed to store that int value
+         * */
+        private static  byte getLenLen(uint payloadLength) {
+            byte[] byteLength = BitConverter.GetBytes(payloadLength);
+            bool foundNonNull = false;
+            byte nLenLen = 0;
+            for(int i = 0 ; i < byteLength.Length; i++){
+                byte b = byteLength[i];
+                if(b != 0) {
+                    foundNonNull = true;
+                }
+                if( b == 0 && foundNonNull == true)
+                    break;
+                nLenLen += 1;
+            }
+            return nLenLen;
+        }
+
+        public static Header ReadHeader(MemoryStream stream) {
+            Header h;
+            try{
+                 h = Read(stream);
+            } catch (EndOfStreamException e) {
+                return null;
+            } catch (BigEndiantException e) {
+                Console.Error.WriteLine("Big Endian Packet detected");
+                return null;
+            }
+            return h;
+
+        }
+
+
+        private byte ComputeControlByte() {
+            byte _typeLen = nTypeLen - 1;
+            byte bOut = 0;
+
+            if (nLenLen == 1)
+                bOut += 0x40;
+            else if (nLenLen == 2)
+                bOut += 0x80;
+            else if (nLenLen == 3)
+                bOut += 0xC0;
+
+            if(_typeLen == 1)
+                bOut += 0x08;
+            else if (_typeLen == 2)
+                bOut += 0x10;
+            else if (_typeLen == 3)
+                bOut += 0x18;
+            else if (_typeLen == 4)
+                bOut += 0x20;)
+            else if (_typeLen == 5)
+                bOut += 0x28;
+            else if (_typeLen == 6)
+                bOut += 0x30;
+            else if (_typeLen == 7)
+                bOut += 0x38;
+
+            if (compound == 1)
+                bOut += 0x04;
+
+            return bOut;
+
+        }
+        
+
+    }
+
+}

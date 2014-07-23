@@ -1,0 +1,21 @@
+mettre en parametre
+=> nb de thread a qui envoyer une request
+=> a combien de resultat stopper
+
+mettre en place system pour demander une requete par node, et laisser tranquil tant que des resultats viennent
+1-QA/S => contient des hub a searcher. keep that in search manager, to launch query to 2 or 3 others.
+  QA/D => contient des hub a ne plus searcher ==> 
+
+2- dans le hubcache, en prendre/trouver un autre a chaque fois quon veut relancer une recherche /ou nouvelle/ YES 
+ ==> changer Cache, pour garder les dates. A faire, rajouter un peer avec la date en cle
+ ==> Si on est connecte a un hub le retirer de la liste des hub , et le mettre dans connectedhub
+
+ MIX DES DEUX !!!! 
+
+download link , check for http request
+
+
+
+
+
+BUG : PacketReader

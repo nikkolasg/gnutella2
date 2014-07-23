@@ -1,0 +1,91 @@
+using System;
+
+namespace gnutella2 {
+
+
+    class G2PacketQ2 : G2Packet {
+    
+        public GUID guid {get;set;}
+        
+        public G2PacketQ2(Header h) : base(h) {
+            this.type = G2PacketType.Q2;            
+        }        
+        public G2PacketQ2() : base() {
+            this.type = G2PacketType.Q2;
+        }
+        
+        public override int WritePayload(MemoryStream stream) {
+            byte[] guidBytes = guid.bytes;
+            // length should be 16, as guid is an array of 16 bytes
+            stream.Write(guidBytes,0,guidBytes.Length);
+        }
+
+        public override uint ReadPayload(MemoryStream stream,uint length) {
+            if(length != GUID.GUID_LEN) {
+                throw new GUIDPacketException("Try reading GUID of length "+ length);
+            }
+            guid = GUID.ReadGUID(stream);
+            return guid.bytes.Length;
+        }
+
+        public override uint getPayloadLength(){
+            return guid.bytes.Length;
+        }
+
+        public override string ToString() {
+            var str = base.ToString()+"\n";
+            str += PrintChildren();  
+            return str;
+        }
+    }
+
+
+    /*
+     * Descriptive Name Query Packet 
+     * */
+    public class G2PacketDN : G2Packet {
+    
+        // in simple query language
+        private string searchTerms {get;set;}
+        private searchByte {get;set;}
+        public G2PacketDN(string search)  {
+            searchTerms = search;
+            computeBytes();
+            type = G2PacketType.DN;
+        }
+
+        public G2PacketDN(Header packheader) : base(packheader) {
+            type = G2PacketType.DN;
+        }
+        private void computeBytes() {
+            searchByte = BinaryUtils.getBytesFromString(searchTerms);
+        }
+
+        public override int WritePayload(MemoryStream stream) {
+            if(searchByte == null) computeBytes();
+            stream.Write(searchByte);
+            return searchByte.Length;
+        }
+
+        // not supposed to be used, but anyway...
+        public override int ReadPayload(MemoryStream stream, uint length) {
+            byte[] bytes = new byte[length];
+            stream.Read(bytes,0,length)
+            searchTerms = getStringFromBytes(bytes);
+        }
+        
+        public override uint  getPayloadLength() {
+            return searchByte.Length + 1;
+        }
+        public override string ToString() {
+            var str = base.ToString();
+            str += "Payload Search terms = " + searchTerms; 
+            return str;
+        }
+        
+
+
+    }
+
+
+}
